@@ -1,0 +1,112 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'satoshimedium', Arial, Helvetica, sans-serif;
+}
+
+h2
+{
+    font-size: 60px;
+}
+
+/* HEADER */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+    align-items: center;
+    font-size: 15px;
+}
+
+header img
+{
+    position: relative;
+    left: -70px;
+    width: 15%;
+    height: auto;
+}
+
+header ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header li
+{
+    padding: 0px 20px;
+}
+
+header a
+{
+    text-decoration: none;
+    color: white;
+}
+
+header button
+{
+    color: white;
+    background-color: #FF6F40;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* FOOTER */
+footer
+{
+    background: url(../images/logoYaqdhan.png) no-repeat top center;
+    background-size: 40% auto;
+    padding: 300px 40px 40px;
+    margin-top: 150px;
+
+    font-size: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer #liens
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+footer ul
+{
+    list-style-type: none;
+    padding: 20px 40px;
+    padding-bottom: 0;
+}
+
+footer ul li
+{
+    padding: 10px;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+footer .reseaux img
+{
+    padding-right: 50px;
+    width: 50px;
+    height: auto;
+}

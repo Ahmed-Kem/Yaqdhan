@@ -1,0 +1,42 @@
+body
+{
+    background: url(../images/bg2.png) center no-repeat;
+    background-position: top;
+    background-size: 100% 100%;
+    background-color: #FAD0CE;
+}
+
+/* DIV GENERAL */
+.quiSommesNous
+{
+    padding: 0 60px 500px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiSommesNous img
+{
+    width: 50%;
+    height: auto;
+}
+
+/* YAQDHAN C'EST QUOI */
+#yaqdhanCestQuoi .text
+{
+    text-align: right;
+    padding-top: 80px;
+}
+
+
+/* CE QU'ON FAIT ? */
+#ceQuonFait .text
+{
+    text-align: left;
+}
+
+/* POURQUOI ON LE FAIT ? */
+#pourquoiOnLeFait .text
+{
+    text-align: right;
+    padding-top: 60px;
+}
